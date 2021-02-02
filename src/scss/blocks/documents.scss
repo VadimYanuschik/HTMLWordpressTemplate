@@ -1,0 +1,45 @@
+section.documents {
+  position: relative;
+  h2.section-title {
+	margin-bottom: 1em;
+	position: relative;
+  }
+  // Помидорки
+  .right-image {
+	position: absolute;
+	right: 0;
+	top: -214px;
+	width: 189px;
+	height: 380px;
+  }
+	//  Листик
+  .left-image {
+	position: absolute;
+	top: 0;
+	left: -150px;
+	z-index: -1;
+  }
+}
+
+.document {
+  position: relative;
+  background-image: url("images/order1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 491px;
+  background-position: center;
+  max-width: 373px;
+
+  .name {
+	color: $c-white;
+	font-weight: bold;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+	bottom: 0;
+	height: 95px;
+	background-color: rgba(108, 193, 100, 0.72);
+	border-right: 2px solid $c-yellow;
+  }
+}

@@ -1,0 +1,59 @@
+section.our-goods {
+  margin-top: 240px;
+
+  .good {
+	border: 1px solid rgba(108, 193, 100, 0.2);
+	padding: 43px 7px;
+	margin-bottom: 60px;
+	max-width: 570px;
+	img {
+	  max-width: 100%;
+	  margin: 0 auto;
+	  display: block;
+	}
+	h5 {
+	  font-weight: bold;
+	  font-size: 18px;
+	  max-width: 250px;
+	  color: #000;
+	  text-align: center;
+	  margin: 0 auto;
+	  margin-top: 56px;
+	}
+	a.button {
+	  display: block;
+	  padding: 0.5em;
+	  max-width: 230px;
+	  margin: 0 auto;
+	  margin-top: 1em;
+
+	  &.button--outline {
+		border: 1px solid $c-yellow;
+		color: $c-blue;
+
+		  &:hover {
+			  background-color: $c-yellow;
+			  color: #FFF;
+		  }
+	  }
+	}
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+	.good {
+	  margin: 0 auto;
+	  margin-bottom: 50px;
+
+	  .buttons {
+		display: flex;
+		margin-top: 50px;
+		a {
+		  width: 220px;
+		  height: 60px;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		}
+	  }
+	}
+  }
+}

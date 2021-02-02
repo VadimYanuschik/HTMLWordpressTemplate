@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geometria";
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+.disable-relative {
+  position: initial !important;
+}
+
+a.button {
+  text-align: center;
+  transition: 0.25s linear;
+  text-decoration: none;
+
+  &--outline {
+	border: 1px solid $c-green;
+	background: none;
+	color: $c-green;
+
+	&:hover {
+	  background-color: $c-green;
+	  color: $c-white;
+	}
+  }
+
+  &--filled {
+	background-color: $c-green;
+	color: $c-white;
+	font-weight: bold;
+  }
+
+  &--small {
+	padding: 0.5em 1em;
+  }
+
+  &--big {
+	padding: 1.1em 5em;
+  }
+
+  &--underscore {
+	color: $c-green;
+	font-weight: bold;
+	border-bottom: 1px dashed $c-green;
+	padding-bottom: 3px;
+  }
+}
+
+.slider-height {
+  height: 570px;
+}
+
+// Site Inputs START
+.form-input {
+  border: none;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  width: 100%;
+
+  &__half-width {
+	width: 49%;
+  }
+}
+
+form span.inline-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+// Site Input ENDS
+
+section {
+  margin-top: 120px;
+}
+
+.overflow-wrapper {
+  overflow-x: hidden;
+}
+
+h2.section-title {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  color: $c-blue;
+  margin-bottom: 4em;
+  margin-top: 13px;
+
+  &::before {
+	content: '';
+	position: absolute;
+	margin-top: -13px;
+	left: -15px;
+	width: 130px;
+	height: 2px;
+	background-color: $c-yellow;
+  }
+}
+
+h6 {
+  font-weight: bold;
+  color: $c-blue;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  .control {
+	width: 48px;
+	height: 48px;
+	background: rgba(108, 193, 100, 0.25);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s ease-in;
+
+	&:hover,
+	&:focus {
+	  background-color: rgba(108, 193, 100, 1);
+	}
+
+	&:hover > svg {
+	  stroke: #FFF;
+	}
+
+	&.next {
+	  transform: rotate(180deg);
+	  margin-left: 3px;
+	}
+  }
+}

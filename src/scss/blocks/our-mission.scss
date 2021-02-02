@@ -1,0 +1,48 @@
+section.our-mission {
+  position: relative;
+  padding-bottom: 50px;
+
+  	&::before {
+	  content: url("/images/side2.png");
+	  position: absolute;
+	  top: -35px;
+	  right: -155px;
+	}
+	p.text {
+	  line-height: 150%;
+	}
+  @media (min-width: 1024px) {
+	padding-bottom: 180px;
+	overflow-x: hidden;
+	position: relative;
+	.mission-image {
+	  position: absolute;
+	  left: 55%;
+	  top: 34px;
+	  width: 570px;
+	  height: 445px;
+
+	  &::before {
+		content: url("images/side2.png");
+		position: absolute;
+		top: -54px;
+		left: -117px;
+		z-index: -1;
+	  }
+	  img {
+		display: block;
+		width: 100%;
+		height: auto;
+	  }
+	}
+	.texts {
+	  &::after {
+		content: url("images/side1.png");
+		position: absolute;
+		bottom: -170px;
+		left: -190px;
+		z-index: -1;
+	  }
+	}
+  }
+}

@@ -1,0 +1,38 @@
+section.questions {
+  background-color: #6CC164;
+  color: $c-white;
+  padding: 60px 0;
+  
+  h2.section-title {
+	color: #fff;
+	margin-bottom: 1em;
+  }
+  .content {
+	p {
+	  font-size: 15px;
+	}
+	svg {
+	  margin-right: 1em;
+	}
+	div.email,
+	div.telephone {
+	  display: flex;
+	  align-items: center;
+	  font-size: 15px;
+	  margin-top: 20px;
+	}
+  }
+  form {
+	textarea {
+	  height: 139px;
+	  resize: none;
+	}
+	a.button.button--filled {
+	  background-color: $c-yellow;
+	  width: 100%;
+	  text-align: center;
+	  display: block;
+	  padding: 13px 0;
+	}
+  }
+}
