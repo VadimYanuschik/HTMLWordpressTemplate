@@ -129,9 +129,10 @@ h6 {
 	  background-color: rgba(108, 193, 100, 1);
 	}
 
-	&:hover > svg {
-	  stroke: #FFF;
-	}
+	img {
+      width: 11px;
+      height: 17px;
+    }
 
 	&.next {
 	  transform: rotate(180deg);

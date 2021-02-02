@@ -4,13 +4,13 @@ section.advantages {
   padding-bottom: 100px;
 
   &::before {
-	content: url("/images/side3.png");
+	content: url("images/side3.png");
 	position: absolute;
 	top: -65px;
 	right: -40px;
   }
   &::after {
-	content: url("/images/side4.png");
+	content: url("images/side4.png");
 	position: absolute;
 	bottom: -200px;
 	left: -100px;
