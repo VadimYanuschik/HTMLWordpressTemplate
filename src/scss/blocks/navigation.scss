@@ -19,6 +19,8 @@ header {
 		  text-transform: uppercase;
 		  color: $c-blue;
 		  font-size: 18px;
+		  margin-top: 0;
+		  margin-bottom: 0;
 		}
 
 		p {
@@ -104,31 +106,6 @@ header {
 	}
   }
 
-  //@media (min-width: 768px) and (max-width: 1023px) {
-	//nav {
-	//  display: flex;
-	//  align-items: center;
-	//  justify-content: space-between;
-  //
-	//  .menu.active {
-	//	display: flex;
-	//	margin-top: 0;
-	//	width: 100%;
-	//	position: absolute;
-	//	left: 50%;
-	//	-webkit-transform: translateX(-50%);
-	//	transform: translateX(-50%);
-	//	top: 0;
-	//	z-index: 10;
-	//	background: white;
-	//	height: 100vh;
-	//	flex-direction: column;
-	//	align-items: center;
-	//	justify-content: center;
-	//	text-align: center;
-	//  }
-	//}
-  //}
   @media (min-width: 1024px) {
 	.burger-menu {
 	  display: none;
