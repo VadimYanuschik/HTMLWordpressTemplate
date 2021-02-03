@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-16x16.png">
-        <link rel="stylesheet" href="libs/bootstrap.min.css">
-        <link rel="stylesheet" href="libs/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/svg-sizes.css">
-        <link rel="stylesheet" href="index.css" />
-    </head>
-    <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 disable-relative">
-                    <nav>
-                        <div class="logo">
-                            <img src="images/logo.png" alt="logo">
-                            <div class="logo__text">
-                                <h3>НПФ «НОРД»</h3>
-                                <p>Научно-производственная фирма «НОРД»</p>
-                            </div>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/css/magnific-popup.css">
+    <link rel="stylesheet" href="css/svg-sizes.css">
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 call-popup">
+                <form id="call-popup" action="/email.php">
+                    <h6>Заполните форму и мы перезвоним вам ближайшее время!</h6>
+                    <input class="form-input" placeholder="Имя" type="text" name="name">
+                    <input class="form-input" placeholder="E-mail" type="email"
+                           name="email">
+                    <input class="form-input" placeholder="Телефон" type="text"
+                           name="telephone">
+                    <textarea class="form-input" placeholder="Сообщение" name="message" id="message"></textarea>
+                    <a href="#" class="button button--filled">Оставить заявку</a>
+                </form>
+            </div>
+            <div class="col-12 disable-relative">
+                <nav>
+                    <div class="logo">
+                        <img src="images/logo.png" alt="logo">
+                        <div class="logo__text">
+                            <h3>НПФ «НОРД»</h3>
+                            <p>Научно-производственная фирма «НОРД»</p>
                         </div>
-                        <div class="menu">
-                            <ul>
-                                <li><a href="#">О Нас</a></li>
-                                <li><a href="#">Наша продукция</a></li>
-                                <li><a href="#">Документация</a></li>
-                                <li><a href="#">Статьи</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                            <a href="#" class="button button--outline button--small">
-                                Заказать звонок
-                            </a>
-                            <div class="contacts">
-                                <div class="telephone">+7(999)999-99-99</div>
-                                <div class="email">Nord59r@mail.ru</div>
-                            </div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">О Нас</a></li>
+                            <li><a href="#">Наша продукция</a></li>
+                            <li><a href="#">Документация</a></li>
+                            <li><a href="#">Статьи</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        <a href="#call-popup" class="button button--outline button--small calling-popup">
+                            Заказать звонок
+                        </a>
+                        <div class="contacts">
+                            <div class="telephone">+7(999)999-99-99</div>
+                            <div class="email">Nord59r@mail.ru</div>
                         </div>
-                        <div class="burger-menu">
-                            <div class="line first-line"></div>
-                            <div class="line middle-line"></div>
-                            <div class="line last-line"></div>
-                        </div>
-                    </nav>
-                </div>
+                    </div>
+                    <div class="burger-menu">
+                        <div class="line first-line"></div>
+                        <div class="line middle-line"></div>
+                        <div class="line last-line"></div>
+                    </div>
+                </nav>
             </div>
         </div>
-    </header>
+    </div>
+</header>

@@ -12,7 +12,10 @@ $(document).ready(function(){
             $('body').css('overflow', 'initial')
         }
     })
-
+    // Call popup
+    $('.calling-popup').magnificPopup({
+        overflowY: 'hidden'
+    })
     //Owl Carousel Home slider
     $("section.main-slider .owl-carousel").on('initialize.owl.carousel', function (e) {
         let sliderCount = $("section.main-slider .owl-carousel").children().length

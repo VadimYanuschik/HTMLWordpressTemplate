@@ -1,0 +1,65 @@
+@@include('parts/header.html')
+<section class="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumbs">
+                    <span class="head"><a href="#">Главная </a></span>
+                    <span class="tail">-<a href="#"> Контакты</a></span>
+                </div>
+            </div>
+            <div class="col-12">
+                <h2 class="section-title">Наши контакты</h2>
+            </div>
+            <div class="col-12 director">
+                <p>ООО НПФ “НОРД”</p>
+                <p>Директор: Голубчиков Валерий Борисович, кандидат технических наук </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 order-lg-0 block-spacing">
+                <h6>Часы работы</h6>
+                <div class="our-contacts">
+                    <img src="images/icons/contacts/hours.png" alt="">
+                    <p>9:00 - 18:00</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 order-lg-1 block-spacing">
+                <h6>Наш адрес</h6>
+                <div class="our-contacts">
+                    <img src="images/icons/contacts/geo.png" alt="">
+                    <p>г. Пермь, ул. Левченко д. 1</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 order-lg-3 block-spacing">
+                <h6>Наш телефон</h6>
+                <div class="our-contacts">
+                    <img src="images/icons/contacts/telephone.png" alt="">
+                    <p>+7(342)224-04-67</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 order-lg-4 block-spacing">
+                <h6>Наш e-mail</h6>
+                <div class="our-contacts">
+                    <img src="images/icons/contacts/email.png" alt="">
+                    <p>nord59r@mail.ru</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 order-lg-2">
+                <div class="contact-form mt-lg-0">
+                    <h6>Напишите нам</h6>
+                    <form action="/email.php">
+                        <input class="form-input" placeholder="Имя" type="text" name="name">
+                        <span class="inline-inputs">
+                            <input class="form-input form-input__half-width marg-r" placeholder="E-mail" type="email"
+                                   name="email">
+                            <input class="form-input form-input__half-width" placeholder="Телефон" type="text"
+                                   name="telephone">
+                        </span>
+                        <textarea class="form-input" placeholder="Сообщение" name="message" id="message"></textarea>
+                        <a href="#" class="button button--filled">Оставить заявку</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@@include('parts/contacts-footer.html')
