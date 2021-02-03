@@ -1,0 +1,32 @@
+section.documentation {
+  margin-top: 60px;
+
+  h2.section-title {
+    margin-bottom: 2em;
+  }
+
+  .pres-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 270px;
+    margin-bottom: 20px;
+  }
+  h6 {
+    margin-bottom: 20px;
+  }
+  a.button.button--filled {
+    width: 269px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0;
+  }
+
+  .title-spacing {
+    margin-top: 120px;
+  }
+  .block-spacing {
+    margin-bottom: 30px;
+  }
+}
