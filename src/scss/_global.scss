@@ -140,3 +140,14 @@ h6 {
 	}
   }
 }
+
+// Breadcrumbs
+div.breadcrumbs {
+  font-size: 12px;
+  .head a {
+	color: $c-blue;
+  }
+  .tail a {
+	color: #676A73;
+  }
+}

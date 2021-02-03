@@ -1,0 +1,51 @@
+section.single {
+  margin-top: 60px;
+
+  h2.section-title {
+    margin-top: 60px;
+    margin-bottom: 1em;
+  }
+
+  h3 {
+    font-size: 23px;
+    color: $c-blue;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+
+  img.thumbnail {
+    display: block;
+    width: 100%;
+    max-width: 570px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  h6.title {
+    font-size: 15px;
+    color: $c-blue;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-top: 14px;
+    margin-bottom: 50px;
+  }
+
+  .single-image {
+    display: block;
+    margin: 0 auto;
+    margin: 50px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .images-in-row {
+    display: flex;
+    justify-content: center;
+
+    .half-image {
+      width: 50%;
+    }
+  }
+
+}
